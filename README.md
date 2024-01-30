@@ -59,4 +59,9 @@ Before running the project, ensure you have the following installed:
 7. Add tokens to metamask
    1. Open your browser and connect Metamask to Goerli network.
    2. Click on import tokens option
-   3. Enter the deployed contract address, symbol and decimal. 
+   3. Enter the deployed contract address, symbol and decimal.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) file for details.
+
