@@ -1,6 +1,6 @@
 # AlgoToken Project
 
-![AlgoToken Logo](path/to/your/logo.png)
+
 
 ## Overview
 
@@ -27,4 +27,36 @@ Before running the project, ensure you have the following installed:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/AlgoToken.git
+   git clone https://github.com/priyanshuthakur2002/Algo-Token.git
+
+2. Install dependencies:
+
+   ```bash
+   cd AlgoToken
+   npm install
+
+3. Start Ganache:
+
+   ```bash
+   ganache-cli
+
+4. Compile and migrate the smart contract:
+
+   ```bash
+   truffle compile
+   truffle migrate --network ganache
+
+5. Test the smart contract:
+
+   ```bash
+   truffle test
+
+6. Update the truffle-config.js file for the Goerli network and deploy the contract:
+
+   ```bash
+   truffle migrate --network goerli
+
+7. Add tokens to metamask
+   1. Open your browser and connect Metamask to Goerli network.
+   2. Click on import tokens option
+   3. Enter the deployed contract address, symbol and decimal. 
